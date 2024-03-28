@@ -5,65 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filipino recipe</title>
     <style>
-        body {
-            opacity: 0;
-            animation: fadeIn 1s ease-in-out forwards;
-        }
+       body {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
 
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-            }
-        }
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
 
-        hr {
-            width: 80%;
-            height: 2px;
-            background-color: rgba(255, 174, 0, 0.233);
-            margin-bottom: 7px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 9px;
-            border-width: 4px;
-            border-color: rgba(89, 12, 12, 0.655);
-        }
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: rgba(255, 174, 0, 0.233);
+    margin-bottom: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 9px;
+    border-width: 4px;
+    border-color: rgba(89, 12, 12, 0.655);
+}
 
-        /* Add the CSS code here */
-        @media screen and (max-width: 768px) {
-            /* Adjustments for smaller screens */
-            hr {
-                width: 90%;
-            }
+/* Add the CSS code here */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    hr {
+        width: 90%;
+    }
 
-            h1 {
-                font-size: 30px;
-            }
+    h1 {
+        font-size: 30px;
+        text-align: center; /* Align h1 center for smaller screens */
+    }
 
-            h2 {
-                font-size: 18px;
-            }
-        }
+    h2 {
+        font-size: 18px;
+        text-align: center; /* Align h2 center for smaller screens */
+    }
 
-        /* Add CSS for navigation buttons */
-        nav {
-            text-align: left;
-            margin-top: 20px;
-        }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%; /* Limit image width to 90% of container */
+        height: auto;
+    }
 
-        nav a {
-            background: rgba(89, 12, 12, 0.655);
-            color: white;
-            text-decoration: none;
-            border: 2px solid transparent;
-            font-weight: bold;
-            padding: 13px 30px;
-            border-radius: 30px;
-            transition: .4s;
-            margin-right: 10px;
-        }
+    pre {
+        text-align: center; /* Align pre center for smaller screens */
+    }
+}
 
-        nav a:hover {
-            background: brown;
+/* Add CSS for navigation buttons */
+nav {
+    text-align: center; /* Align nav center for all screens */
+    margin-top: 20px;
+}
+
+nav a {
+    background: rgba(89, 12, 12, 0.655);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background: brown;
+}
+
         }
     </style>
 </head>
