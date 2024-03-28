@@ -62,15 +62,18 @@ p {
     .container {
         max-width: 90%; /* Adjust width for smaller screens */
         padding: 20px;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items vertically */
     }
 
     img, .Leftclass {
         width: 100%; /* Set both image and Leftclass to 100% width */
         max-width: 100%; /* Ensure image and Leftclass resizes with screen */
+        margin-right: 0; /* Remove margin-right for img */
     }
 
     img {
-        margin-right: 0; /* Remove margin-right for img */
+        margin-bottom: 20px; /* Add margin-bottom for img */
     }
 
     img, .Leftclass, button, p {
