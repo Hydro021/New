@@ -175,4 +175,7 @@ button:hover {
         margin-top: 50px; /* Adjust margin for smaller screens */
         margin-bottom: -50px; /* Adjust margin for smaller screens */
     }
+    . navbar{
+        text-align: justify;
+        justify-content: space-between;
 }
